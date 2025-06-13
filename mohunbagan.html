@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mohun Bagan Theme</title>
+  <link rel="stylesheet" href="mohunbagan.css" />
+</head>
+<body>
+  <header>
+    <h1>🏆 Mohun Bagan Club Themes</h1>
+  </header>
+
+  <nav>
+    <button onclick="goHome()">⬅️ Back to Home</button>
+  </nav>
+
+  <main id="theme-container">
+    <!-- Example Theme Cards -->
+    <div class="theme-card">
+      <div class="preview"></div>
+      <h3>Mohun Bagan Classic</h3>
+      <button onclick="applyTheme()">Apply</button>
+    </div>
+    <div class="theme-card">
+      <div class="preview"></div>
+      <h3>Maroon Glory</h3>
+      <button onclick="applyTheme()">Apply</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Real Football Themes - Mohun Bagan Edition</p>
+  </footer>
+
+  <script>
+    function goHome() {
+      window.location.href = "index.html";
+    }
+    function applyTheme() {
+      alert("Mohun Bagan theme applied!");
+    }
+  </script>
+</body>
+</html>
